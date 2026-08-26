@@ -49,7 +49,7 @@ public class TareaController {
         for (int i = 0; i < tareas.size(); i++) {
             if (tareas.get(i).getId() == id) {
                 tareaActualizada.setId(id);
-                tareas.set(i, tareaActualizado);
+                tareas.set(i, tareaActualizada);
                 return tareaActualizada;
             }
         }
